@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">volume_app</string>
+    <string name="text1">text1</string>
+    <string name="volume_caluculator">volume caluculator</string>
+</resources>
