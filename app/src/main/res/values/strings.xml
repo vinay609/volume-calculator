@@ -2,4 +2,8 @@
     <string name="app_name">volume_app</string>
     <string name="text1">text1</string>
     <string name="volume_caluculator">volume caluculator</string>
+    <string name="sphere_volume">sphere volume</string>
+    <string name="please_enter_the_radius">please Enter the radius</string>
+    <string name="result">result</string>
+    <string name="calculate_volume">calculate volume</string>
 </resources>

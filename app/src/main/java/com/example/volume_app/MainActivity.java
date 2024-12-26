@@ -1,6 +1,10 @@
 package com.example.volume_app;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.AdapterView;
 import android.widget.GridView;
 
 import androidx.activity.EdgeToEdge;
@@ -47,11 +51,15 @@ public class MainActivity extends AppCompatActivity {
         gridView.setAdapter(adapter);
         gridView.setNumColumns(2);
 
+        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
 
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent i = new Intent(getApplicationContext(), sphere.class);
+                startActivity(i);
+            }
 
-
-
-
-    }
+            });
+        }
 }

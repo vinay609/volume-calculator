@@ -18,14 +18,16 @@
         android:textColor="@color/white"
         android:textSize="35sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="35dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp" />
 
     <GridView
         android:id="@+id/gridView"
-        android:layout_width="422dp"
-        android:layout_height="625dp"
+        android:layout_width="442dp"
+        android:layout_height="557dp"
         android:numColumns="2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
